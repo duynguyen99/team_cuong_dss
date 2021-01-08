@@ -146,7 +146,7 @@ void Cdcmtest1View::OnDraw(CDC* pDC)
 	//}
 
 	//Set the view background color
-	CBrush   backBrush(RGB(0, 0,0));
+	CBrush   backBrush(RGB(255, 255, 255));
               //   ±£´æ¾ÉË¢×Ó  
     pDC->SelectObject(&backBrush);  
     CRect   rect;
